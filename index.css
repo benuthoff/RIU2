@@ -1,6 +1,6 @@
 body {
 	background-color: #2a2c33;
-	font-family: 'SF Pro Rounded', sans-serif;
+	font-family: 'SF Pro Text', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,6 +28,7 @@ h2 {
 	justify-content: center;
 }
 #live {
+	font-family: 'SF Pro Rounded';
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -63,7 +64,11 @@ h2 {
 
 @font-face {
 	font-family: 'SF Pro Text';
-	src: url(./SF-Pro-Text-Medium.otf) format('opentype');
+	src: url(./media/SF-Pro-Text-Medium.otf) format('opentype');
+}
+@font-face {
+	font-family: 'SF Pro Rounded';
+	src: url(./media/SF-Pro-Rounded-Regular.otf) format('opentype');
 }
 
 @keyframes blink {
